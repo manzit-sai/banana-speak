@@ -1,0 +1,60 @@
+   :root{
+    --primary-color:#F9A826;
+   
+
+    }
+ 
+    
+    h1{
+        background-color:var(--primary-color);
+        text-align: center;
+        line-height: 5rem;
+    }
+        textarea{
+            width:80%;
+            height: 10vh;
+            display: block;
+            padding: 1rem;
+            
+            margin: 3rem auto;
+        }
+        #output{
+            border: 1px solid black;
+            height: 10vh;
+            width:80%;
+            margin:1rem;
+            padding:1rem;
+            margin: 1rem auto;
+            margin-bottom: 20rem;
+        }
+ 
+     .wrapper{
+         text-align: center;
+     }
+    #btn-translate{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+    width: 30%;
+    height: 5vh;
+    cursor: pointer;
+    margin: 1rem auto;
+    font-size: large;
+   
+    
+  
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color:var(--primary-color);
+    text-align: center;
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+}
